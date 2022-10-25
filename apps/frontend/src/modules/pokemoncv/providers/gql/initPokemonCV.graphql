@@ -1,0 +1,19 @@
+query initPokemonCV{
+    initPokemonCV{ 
+        name
+        pic
+        id
+        height
+        weight
+        evolution
+        abilities {
+            name
+            is_hidden
+        }
+        types
+        stats {
+            name
+            base_stat
+        }
+    }
+}
