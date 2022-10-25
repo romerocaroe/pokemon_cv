@@ -9,10 +9,11 @@
       <v-avatar class="px-4" dense>
         <img
           src="./media/pokemon_icon.png"
+          dense
           alt="John"
         >
       </v-avatar>
-      <v-toolbar-title>Pokemon CV</v-toolbar-title> -->
+      <!-- <v-toolbar-title>Pokemon CV</v-toolbar-title> -->
     </v-app-bar>
 
     <v-main>
