@@ -1,0 +1,7 @@
+query FetchComment {
+  fetchComment {
+    username
+    description
+    id
+  }
+}

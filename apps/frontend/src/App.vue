@@ -6,23 +6,16 @@
       dense
       dark
     >
-      <v-avatar class="px-4" dense>
-        <img
-          src="./media/pokemon_icon.png"
-          dense
-          alt="John"
-        >
-      </v-avatar>
-      <!-- <v-toolbar-title>Pokemon CV</v-toolbar-title> -->
+      <v-toolbar-title class="light-blue--text text--lighten-5">Pokemon CV</v-toolbar-title>
     </v-app-bar>
 
     <v-main>
-      <v-row justify="center">
-        <v-col class="animate__animated animate__bounceInDown" cols="10" md="6">
+      <v-row>
+        <v-col class="animate__animated animate__bounceInDown" cols="12">
           <PokemonInit/>
         </v-col>
-        <v-col class="animate__animated animate__bounceInRight" cols="10" md="4">
-          <OpinionsSector/>
+        <v-col class="animate__animated animate__bounceInDown" cols="12">
+          <InitComment/>
         </v-col>
       </v-row>
     </v-main>
@@ -32,13 +25,13 @@
 <script>
 import 'animate.css';
 import PokemonInit from './modules/pokemoncv/components/PokemonInit.vue';
-import OpinionsSector from './modules/base/components/OpinionsSector.vue'
+import InitComment from './modules/base/components/InitComment.vue'
 
 export default {
   name: 'App',
   components: {
     PokemonInit,
-    OpinionsSector
+    InitComment
   }
 };
 </script>

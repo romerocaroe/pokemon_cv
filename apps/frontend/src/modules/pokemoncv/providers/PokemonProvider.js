@@ -1,6 +1,6 @@
 import graphqlClient from '../../../apollo'
 
-class BaseProvider {
+class PokemonProvider {
 
     initPokemonCV(){
         return graphqlClient.query({
@@ -10,4 +10,4 @@ class BaseProvider {
 
 }
 
-export default new BaseProvider()
+export default new PokemonProvider()

@@ -1,0 +1,3 @@
+mutation CreateComment($username: String, $description: String) {
+    createComment(username: $username, description: $description)
+}

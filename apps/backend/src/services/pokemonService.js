@@ -4,7 +4,6 @@ export const initPokemonCVService = async () => {
 	try {
 		const pokemonData = await fetchData()
 		const pokemonOrderData = await orderData(pokemonData)
-		console.log("pokemonData",pokemonOrderData.abilities)
 		return pokemonOrderData
 	} catch (err){
 		console.error("Error: " + err)
@@ -18,7 +17,6 @@ const fetchData = async () => {
 			url: process.env.URL_POKEAPI,
 			method: 'GET',
 		})
-		console.log()
 		return res.data;
 	} catch(err){
 		console.error("Error: " + err)
@@ -39,7 +37,6 @@ export const orderData = async (pokemonData) => {
 			types: [],
 			stats: [],
 		}
-		console.log(pokemonData.abilities)
 		pokemon.name = pokemonData?.species?.name != "" ? pokemonData?.species?.name : ""
 		pokemon.pic = pokemonData?.sprites?.other?.home?.front_default != "" ? pokemonData?.sprites?.other?.home?.front_default : ""
 		pokemon.id = pokemonData?.id
