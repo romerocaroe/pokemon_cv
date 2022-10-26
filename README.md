@@ -26,9 +26,9 @@
 
 ## About The Project 
 <div align="center">
-    <img src="./frontend/public/pokemon_cv_init.png" alt="Main" width="600" height="300">
+    <img src="/apps/frontend/public/pokemon_cv_init.png" alt="Main" width="600" height="300">
     <br/>
-    <img src="./frontend/public/pokemon_cv_comments.png" alt="Main" width="600" height="300">
+    <img src="/apps/frontend/public/pokemon_cv_comments.png" alt="Main" width="600" height="300">
 </div>
 
 
@@ -41,15 +41,21 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 * [![Vue][Vue.js]][Vue-url]
 * [![Vuetify][Vuetify.js]][Vuetify-url]
-
-- VueJS
-- Vuetify
-- Apollo Client
-- GraphQL
+* [![Graphql][Graphql]][Graphql-url]
+* [![Apollo Client][ApolloClient]][ApolloVue-url]
+* [![Apollo][Apollo]][Apollo-url]
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badgelogo=vuedotjs&logoColor=4FC08D
 [Vue-url]: https://vuejs.org/
-[Vuetify.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badgelogo=vuedotjs&logoColor=4FC08D
+[Vuetify.js]: https://img.shields.io/badge/vuetify-blue
 [Vuetify-url]: https://vuetifyjs.com/en/
+[Graphql]: https://img.shields.io/badge/graphql-ff69b4
+[Graphql-url]: https://graphql.org/
+[ApolloClient]: https://img.shields.io/badge/vue%20apollo-brightgreen
+[ApolloVue-url]: https://apollo.vuejs.org/
+[Apollo]: https://img.shields.io/badge/apollo-blueviolet
+[Apollo-url]: https://www.apollographql.com/
+[Firebase]: https://img.shields.io/badge/firebase-orange
+[Firebase-url]: https://firebase.google.com/
