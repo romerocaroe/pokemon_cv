@@ -28,7 +28,7 @@
 <div align="center">
     <img src="/apps/frontend/public/pokemon_cv_init.png" alt="Main" width="600" height="300">
     <br/>
-    <img src="/apps/frontend/public/pokemon_cv_comments.png" alt="Main" width="400" height="300">
+    <img src="/apps/frontend/public/pokemon_cv_comments.png" alt="Main" width="400" height="150">
 </div>
 
 
