@@ -12,7 +12,7 @@
    ```
 4. Add '.env' file at Backend ('/apps/backend') and declare environment variables:
    ```js
-   URL_POKEAPI=''
+   URL_POKEAPI='https://pokeapi.co/api/v2/pokemon/lapras'
    ```
 5. Run Backend (Se requiere una versión actual de 'nodejs')
     ```sh
