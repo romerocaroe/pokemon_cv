@@ -32,7 +32,6 @@ export const resolvers = {
     },
     Mutation: {
         createComment(_,{ username, description },{}){
-            console.log(username, description)
             return createCommentService(username, description);
         },
         updateComment(_,{ id, username, description },{}){
