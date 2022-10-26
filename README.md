@@ -20,7 +20,7 @@
     ```
 6. Run Frontend 
     ```sh
-        npm install
+        npm run serve
     ```
 7. Open [http://localhost:8080](http://localhost:8080) with your browser to see the result.
 
