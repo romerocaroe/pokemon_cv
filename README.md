@@ -26,9 +26,9 @@
 
 ## About The Project 
 <div align="center">
-    <img src="frontend/public/pokemon_cv_init.png" alt="Main" width="600" height="300">
+    <img src="./frontend/public/pokemon_cv_init.png" alt="Main" width="600" height="300">
     <br/>
-    <img src="frontend/public/pokemon_cv_comments.png" alt="Main" width="600" height="300">
+    <img src="./frontend/public/pokemon_cv_comments.png" alt="Main" width="600" height="300">
 </div>
 
 
